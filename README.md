@@ -1,5 +1,13 @@
 # MyCodeCamp
 
+**2016.04.23**
+
+Sigh..., I found I'm very lazy, when try to complete the example in FreeCodeCamp. Just don't want to start or be casual. I don't know why, why I didn't have the patience or determination to make things perfect.
+
+Maybe the reason is I don't have any plan? So I should create a to do list? But most things are repeat day and day.
+
+---
+
 **2016.03.24**
 
 `Basic Front End Development Projects`，这一课，难度增加了挺多，对于新手来说，毕竟是搭建一个新的页面，而且不可以看例子的代码。不过要求也不多，所以如果只是完成课程要求，也还好，这一课算是实战，花多点时间去好好研究，好好写一个页面，对入门新手来说能进步很大。
