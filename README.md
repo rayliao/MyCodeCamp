@@ -1,33 +1,7 @@
 # MyCodeCamp
 
-**2016.04.23**
+[Random Quote](http://codepen.io/rayliao/full/yOxLYB/)
 
-Sigh..., I found I'm very lazy, when try to complete the example in FreeCodeCamp. Just don't want to start or be casual. I don't know why, why I didn't have the patience or determination to make things perfect.
+[Portfolio Zipline Example](http://codepen.io/rayliao/full/ZWKoNw/)
 
-Maybe the reason is I don't have any plan? So I should create a to do list? But most things are repeat day and day.
-
----
-
-**2016.03.24**
-
-`Basic Front End Development Projects`，这一课，难度增加了挺多，对于新手来说，毕竟是搭建一个新的页面，而且不可以看例子的代码。不过要求也不多，所以如果只是完成课程要求，也还好，这一课算是实战，花多点时间去好好研究，好好写一个页面，对入门新手来说能进步很大。
-
-于我嘛，我直接看代码复制过一遍了，懒得去全部重新自己写了。
-
-`background-attachment`虽然很早就有了，但是一直很少用上，合理利用，效果非常好。
-
----
-
-**2016.03.23**
-
-今天刷完`jQuery`，内容相对比较少，无非就是介绍怎么用jquery触发元素，通过class，id和html标签。给元素添加class或改变css等操作。英文教程也可以很轻松的理解，生词量比较少点。
-
----
-
-记录下学习CodeCamp的代码，虽然很多知识都是基础，但想着用来学习英语也不错。
-
-[It is where to learn coding](http://www.freecodecamp.com/)
-
-顺便说下`git`，每次使用老是会忘记相关的命令，导致每次都要查看[git使用简易指南](http://www.bootcss.com/p/git-guide/)。（shit，写这个的时候，`markdown`的语法又忘记了，忘记怎么加链接了，哭。
-
-这次查git的操作教程，又把[阮一峰老师的操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)重新看一遍，算是又理解了一些，知道了`git remote`和`git fetch`的用法，不知道为什么对git的命令老是记不住，可能下次又得查文档了。
+[TributePage](http://codepen.io/rayliao/full/mPmLLr/)
