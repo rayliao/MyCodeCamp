@@ -1,7 +1,7 @@
 $(function(){
 	var now = moment().format('dddd, MMMM YYYY');
 	$('.j-date').html(now);
-	// getWeather();
+	getWeather();
 
 	$('.j-temp').on('click', function(){
 		$(this).find('span').toggle();
@@ -26,13 +26,14 @@ function getWeather(){
   						break;
   					}
   				}
+          console.log(data);
   				var temp = data.list[index].main.temp;
   				var tempHtml = '<span>' + Math.round(temp) + '°c</span><span style="display: none;">' + Math.round((temp * 9)/5 + 32) + '°f</span>';
   				$('.j-temp').html(tempHtml);
 
   				var list = '';
 				for(var j = 0; j < 5; j++) {
-					list += '<li data-t="' + data.list[3+8*j].main.temp + '"">' + moment().add(j, 'd').format('DD/MM') + '</li>';
+					list += '<li data-t="' + data.list[3+8*j].main.temp + '""><i class="icon icon-rainy"></i><p>' + moment().add(j, 'd').format('DD/MM') + '</p></li>';
 				}
 				$('.j-list').html(list);
   			}

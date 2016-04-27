@@ -29,7 +29,9 @@ gulp.task('watch', ['connect', 'serve'], function () {
     
     gulp.watch([
         '*.html',
-        'js/*.js'
+        'js/*.js',
+        'css/*.css',
+        'img/*'
     ]).on('change', function (file) {
         livereload.changed(file.path);
     });
