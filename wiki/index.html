@@ -9,14 +9,18 @@
 <body>
     <div class="content">
         <div id="wiki" class="content-inner">
-            <a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random article</a>
-            <input type="text" v-model="query" v-on:keyup.enter="search">
-            {{message}}
-            <ul>
-                <li v-for="page in pages">
-                    {{page.title}}
-                </li>
-            </ul>
+            <div class="container">
+                <a class="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a>
+                <div>
+                    <input type="text" v-model="query" v-on:keyup.enter="search">
+                </div>
+                <div class="list-group">
+                    <a class="list-group-item" v-for="page in pages" href="https://en.wikipedia.org/?curid={{page.pageid}}" target="_blank">
+                        <h4 class="list-group-item-heading">{{page.title}}</h4>
+                        <p class="list-group-item-text">{{page.extract}}</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
