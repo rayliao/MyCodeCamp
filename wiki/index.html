@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="content">
+        <div id="wiki" class="content-inner">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random article</a>
+            <input type="text" v-model="query" v-on:keyup.enter="search">
+            {{message}}
+            <ul>
+                <li v-for="page in pages">
+                    {{page.title}}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

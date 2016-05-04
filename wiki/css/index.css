@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #8781bd;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+
+.content-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content a {
+	font-size: 16px;
+	color: #fff;
+}
+
+.content h1 {
+  font-size: 46px;
+  cursor: pointer;
+}
+
+.content ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.content li {
+  cursor: pointer;
+  list-style: none;
+  float: left;
+  margin: 0 10px;
+}
+
+.content li i {
+  font-size: 30px;
+}
+
+.content li p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.content .current {
+  color: #E78D7E;
+}
