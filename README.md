@@ -1,5 +1,7 @@
 # MyCodeCamp
 
+[Wiki](http://codepen.io/rayliao/full/vGbdMo/)
+
 [Weather](http://codepen.io/rayliao/full/MyPXXP/)
 
 [Random Quote](http://codepen.io/rayliao/full/yOxLYB/)
