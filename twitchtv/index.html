@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>twitchtv</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row" id="header">
+			<h1>Twitch Streamers</h1>
+			<div class="menu">
+				<div class="selector active" id="all">
+        			<div class="circle"></div><p>All</p>
+		      	</div>
+		      	<div class="selector" id="online">
+		        	<div class="circle"></div><p>Online</p>
+		      	</div>
+		      	<div class="selector" id="offline">
+		        	<div class="circle"></div><p>Offline</p>
+		      	</div>
+			</div>
+		</div>
+		<div id="display">
+    	</div>
+	</div>
+    <script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.min.js"></script>
+    <script src="dist/index.js"></script>
+</body>
+</html>
